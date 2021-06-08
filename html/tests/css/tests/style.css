@@ -1,0 +1,45 @@
+/* Sélcteur universel */
+/* * {
+    border: 3px solid black;
+} */
+/* Sélection par type */
+/* le "h1" ici est un sélecteur : la catégorie du fichier HTML qui sera affectée par la propriété "background-color:grey;" celle-ci toujours suivie d'un point-virgule avant la fin de l'accolade. */
+/* On peut grouper plusieurs catégories en les séparant d'une virgule sans espace. */
+h1,h2 {
+    background-color: grey;
+}
+
+article {
+    border: 3px solid green;
+}
+
+header p {
+    color: blue;
+}
+
+/* Le caractère ">" permet de préciser que l'on sélectionne uniquement les enfants directs et non pas tous les descendants */
+main > p {
+    color:green;
+}
+
+section p {
+    color:indigo;
+}
+
+footer p {
+    color:brown;
+}
+
+/* Sélecteur par classe noté "class" sur HTML et "." sur CSS */
+.underline  {
+    border-bottom: 1px solid black;
+} /* underline = souligner */
+
+/* Sélecteur par identité noté "id" sur HTML et "#" sur CSS */
+#first-news {
+    font-size: 2em;
+    color:blueviolet;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 20px;
+}

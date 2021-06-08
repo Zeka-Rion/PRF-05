@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+h1 span:before {
+    color: red;
+    font-size: 2em;
+}
+
+h1 {
+    background-color: gray;
+}
+
+.ul-main-nav {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+
+}
+.ul-main-nav li {
+    margin: 0 20px
+}
+
+#wrap-section {
+    display:flex;
+    justify-content: space-around;
+
+}

@@ -1,0 +1,10 @@
+section {
+    border: 1px solid red
+}
+
+#wrap-section {
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-around;
+    
+}
